@@ -1,6 +1,4 @@
-FROM centos:centos7
-
-LABEL MAINTAINER=nigelpoulton@hotmail.com
+FROM centos:centos6
 
 # Install Node etc...
 RUN yum -y update; yum clean all
